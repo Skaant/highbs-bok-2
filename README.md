@@ -1,7 +1,7 @@
-**Built on **[`kami.js`](https://github.com/Skaant/kami.js)**
+**Built on [`kami.js`](https://github.com/Skaant/kami.js) !**
   
 *[24 KAMIS](#kamis-glossary)
-on 10/6/2020, 12:49:51 PM*
+on 10/6/2020, 1:34:00 PM*
 
 # highbs-bok-2
 

@@ -1,6 +1,6 @@
 export default kamis =>
 
-  `**Built on **[\`kami.js\`](https://github.com/Skaant/kami.js)**
+  `**Built on [\`kami.js\`](https://github.com/Skaant/kami.js) !**
   
 *[${ kamis.length } KAMIS](#kamis-glossary)
 on ${ (new Date()).toLocaleString('en') }*
