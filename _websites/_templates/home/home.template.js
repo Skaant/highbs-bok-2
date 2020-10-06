@@ -104,19 +104,19 @@ export default data => layoutFragment(
             est régulièrement mis à jour, et j'essaie de notifier ses changements ici.</p>
           <ul>
             <li>
-              Rajout d'un niveau intermédiaire entre
-              <span class="lexic text-laser">ERA</span> et page : section</li>
+              <b>Passage du code source du projet sur
+                le framework [\`kami.js\`](https://github.com/Skaant/kami.js)</b></li>
             <li>
-              Chaque niveau de groupement (
-              <span class="lexic text-laser">ERA</span>
-              , section, page) aura sa page indivudelle dédiée</li>
-            <li>Avancées sur les pages 1, 2, 3 (
-              <span class="lexic text-laser">ERA</span>
-              ??, section 1)</li>
+              Amélioration des URLs des sections
+                (ERA, chapitres) et des pages pour être plus lisibles.</li>
             <li>
-              Avancées sur tous les titres d'
-              <span class="lexic text-laser">ERAS</span>
-              , sections et pages</li>
+              Intégration du storyboard de Mai 2020
+                (scan en cours de transfert sur [imrok.fr](https://imrok.fr)).</li>
+            <li>
+              Amélioration des balises <title> et
+                méta description pour un contenu
+                plus cohérent, toujours basé sur
+                les données de la page ou section.</li>
           </ul>
         </div>
       </div>
@@ -126,8 +126,20 @@ export default data => layoutFragment(
           <p>Une liste non-exhaustive du contenu et des fonctionnalités envisagés.</p>
           <ul>
             <li>
-              Transfert du storyboard de Mai 2020 en architecture de la trame des
-              <span class="lexic text-laser">ERAS</span></li>
+              Ajout des boutons "Précédent" et "Suivant"
+                intelligents (passent d'un ERA, à un chapitre,
+                et inversement; dans l'ordre du livre) sur
+                toutes les pages (ERA, chapitre, page atomique).</li>
+            <li>
+              <b>Ajout d'images dans le contenu des pages,
+                issues des archives du site IMROK
+                (storyboards, textes, artworks).</b>
+              Nécessite l'ajout de la fonctionnalité dans le
+                framework \`kami.js\`.</li>
+            <li>Continuer à enrichier les pages.
+              Une bonne partie du contenu est déjà fixée,
+              éparse, dans mes notes et autres. Mais c'est
+              ordonner qui prend du temps.</li>
           </ul>
         </div>
       </div>
