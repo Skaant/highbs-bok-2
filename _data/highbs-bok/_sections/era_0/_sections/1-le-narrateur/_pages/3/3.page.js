@@ -1,4 +1,5 @@
 export default {
+  id: 'etoile-des-motifs',
   title: "Étoile des motifs",
   description: "Je vous parle des concepts",
   content: `

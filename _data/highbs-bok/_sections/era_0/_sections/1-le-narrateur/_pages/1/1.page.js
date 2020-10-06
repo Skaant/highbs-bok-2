@@ -1,5 +1,6 @@
 export default {
-  title: "L'éveilleur",
+  id: 'sutrat-de-l-eveil',
+  title: "SUTRAT de l'éveil",
   description: "Qui le premier a allumé la torche ?",
   content: `
 Je suis dans mes VAULTS

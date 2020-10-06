@@ -1,6 +1,6 @@
 export default {
   id: 'era-0',
-  title: 'Le narrateur',
+  title: 'Présent',
   description: "Volontairement plongé dans les flots PSIK, le narrateur introduit la SAGA ZUMA : l'histoire des ZUMS.",
   content:`
 Sont-ce le PSIK et ses effluves de PSIK qui t'ont mené jusqu'ici ? 

@@ -1,6 +1,7 @@
 export default {
+  id: 'histoire-des-zums',
   title: "Une histoire des ZUMS",
-  description: "L'épopée de grands singes dans l'espace",
+  description: "L'épopée de grands singes dans l'espace et le temps",
   content: `
 Sous les cascades de fleurs,
 Les rayons du SOLN,

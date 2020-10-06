@@ -1,4 +1,5 @@
 export default {
+  id: 'kang',
   title: "KANG",
   description: "On a frappé à la surface du gong",
   content: `
