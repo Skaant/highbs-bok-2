@@ -1,0 +1,25 @@
+{
+  "name": "highbs-bok-2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "(Built on KAMI.JS) HIGHBS-BOK, the absolute book of PATTERNS, describes the ZUMS SAGA, a story about intelligent, self-conscious and cultivated monkeys getting to the edges of universe and coming back.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --experimental-modules",
+    "test": "npm start -- test"
+  },
+  "keywords": [
+    "abs",
+    "highbs",
+    "art",
+    "philosophical",
+    "poems",
+    "sutras",
+    "surats",
+    "koans",
+    "abstract",
+    "psychedelic"
+  ],
+  "author": "imrok.fr",
+  "license": "ISC"
+}

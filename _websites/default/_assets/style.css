@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Roboto-Slab";
+  src: url("/assets/fonts/RobotoSlab-Regular.ttf");
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  color: rgba(0, 0, 0, 0.85);
+}
+
+h1, h2:not(.lead), h3, .navbar-brand, .text-laser, .text-gold, .text-epic, .activated {
+  font-family: "Roboto-Slab";
+  word-break: break-word;
+}
+
+body > div {
+  padding-bottom: 160px;
+}
+
+img#top-image {
+  min-width: 800px;
+  opacity: .55
+}
+
+h1 {
+  font-size: 8rem;
+  letter-spacing: .65rem;
+}
+
+#era h1,
+#section h1,
+#page h1 {
+  font-size: 4rem;
+}
+
+@media (max-width: 991.98px) {
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  #era h1,
+  #section h1,
+  #page h1 {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: 12rem;
+  letter-spacing: .35rem;
+}
+
+#era h2,
+#section h2,
+#page h2 {
+  margin-top: 6rem;
+  font-size: 2.5rem;
+}
+
+h1 + p,
+h2 + p {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, .55)
+}
+
+p, li {
+  font-size: 1.3rem;
+  letter-spacing: .12rem
+}
+
+.text-gold {
+  color: rgb(241, 182, 99);
+}
+
+#home a {
+  text-decoration: underline;
+}
+
+a,
+a:hover,
+.text-laser {
+  color: rgb(94, 107, 231);
+}
+
+span.title {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.activated {
+  color: rgb(94, 107, 231) !important;
+}
+
+#eras a:not(:hover),
+#era_page #pages_list a:not(.active):not(:hover),
+#era_page #eras_list a:not(.active):not(:hover) {
+  color: initial;
+}
+
+.lexic {
+  transition: background-color 1s ease-in-out .5s, color 1s ease-in;
+}
+
+.lexic.open {
+  background-color: rgb(94, 107, 231);
+  color: white;
+}
+
+#era_page h1 {
+  font-size: 4rem;
+}
