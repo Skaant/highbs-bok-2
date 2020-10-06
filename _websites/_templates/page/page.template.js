@@ -1,37 +1,47 @@
+import showdown from 'showdown'
 import layoutFragment from "../_fragments/layout/layout.fragment.js";
 
-export default data => layoutFragment(
-  data,
-  {
-    title: data.page.title
-      + ' (ERA ' + data.era.index
-      + ', chapitre ' + (data.chapter.index + 1)
-      + ', page ' + (data.page.index + 1)
-      + ') | ' + data.title,
-    description: data.page.description,
-    content: `<div id="${ data.page.id }">
-    <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <a href="/">Accueil</a></li>
-          <li class="breadcrumb-item">
-            <a href="/7-eras">7 ERAS</a></li>
-          <li class="breadcrumb-item">
-            <a href="/era-${ data.era.index }">
-              ERA ${ data.era.index === 0 ? '??' : data.era.index }. ${
-                data.era.title }</a></li>
-          <li class="breadcrumb-item">
-            <a href="/era-${ data.era.index }/${
-                  data.chapter.index + 1 }-${ data.chapter.id }">
-              Chapitre ${ data.chapter.index + 1}. ${ data.chapter.title }</a></li>
-          <li class="breadcrumb-item active" aria-current="page">
-            Page ${ data.page.index + 1}.</li>
-        </ol>
-      </nav>
-      <h1>${ data.page.title }</h1>
-      <p>${ data.page.content }</p>
-    </div>
-  </div>
-    `
+export default data => {
+
+  const { era, chapter, page } = data
+
+  const converter = new showdown.Converter({
+    simpleLineBreaks: true
   })
+  
+  return layoutFragment(
+    data,
+    {
+      title: page.title
+        + ' (ERA ' + era.index
+        + ', chapitre ' + (chapter.index + 1)
+        + ', page ' + (page.index + 1)
+        + ') | ' + data.title,
+      description: page.description,
+      content: `<div id="${ page.id }">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="/">Accueil</a></li>
+            <li class="breadcrumb-item">
+              <a href="/7-eras">7 ERAS</a></li>
+            <li class="breadcrumb-item">
+              <a href="/era-${ era.index }">
+                ERA ${ era.index === 0 ? '??' : era.index }. ${
+                  era.title }</a></li>
+            <li class="breadcrumb-item">
+              <a href="/era-${ era.index }/${
+                    chapter.index + 1 }-${ chapter.id }">
+                Chapitre ${ chapter.index + 1}. ${ chapter.title }</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Page ${ page.index + 1}.</li>
+          </ol>
+        </nav>
+        <h1>${ page.title }</h1>
+        ${ converter.makeHtml(page.content) }
+      </div>
+    </div>
+      `
+    })
+}
