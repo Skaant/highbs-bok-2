@@ -1,8 +1,9 @@
 export default {
   id: 'era-1',
-  name: "PALÉO-ZUMS",
-  description: "Il fut un temps où les être ne pouvaient communiquer qu'aux moyens de grognement rocailleux et de gestes vagues.",
+  title: "PALÉO-ZUMS",
+  description: "Nous parlons d'une époque où les confilts se résolvaient dans la douleur et la mort.",
   content: `
-C'était avant l'avènement du HOL-ONG.
+C'était avant l'avènement du HOL-ONG,
+Le réseau de conscience collective.
   `
 }
