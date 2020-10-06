@@ -16,38 +16,45 @@ export default data => layoutFragment(
       </h1>
       <p>Les sept actes de l'histoire des
         <span class="lexic text-laser">ZUMS</span></p>
-        ${
-          data.book.sections.map((era, index) =>
-            
-            `
-          <h2>
-            <a href="/era-${ index }">
-              ERA ${
-                index === 0 ? '??' : index
-              } : ${ era.title }</a>
-          </h2>
-          <p>${ era.description }</p>
-          ${ era.sections
-            ? `
-          <ol>
-            ${
-              era.sections.map((chapter, jndex) =>
-                
-                `
-            <li>
+      <p>Vous suivez le narrateur dans son exploration de toutes les époques
+        marquantes de l'épopée des ZUMS à travers l'espace et le temps.</p>
+      <p>De la mise au point du HOL-ONG, le réseau de conscience collective,
+        jusqu'au siège de la dernière ville de l'univers par les forces du chaos;
+        découvrez les idées les plus folles sur l'avenir, la nature et le sens de toutes choses.</p>
+      ${
+        data.book.sections.map((era, index) =>
+          
+          `
+        <h2>
+          <a href="/era-${ index }">
+            ERA ${
+              index === 0 ? '??' : index
+            } : ${ era.title }</a>
+        </h2>
+        <p>${ era.description }</p>
+        ${ era.sections
+          ? `
+        <ul class="list-unstyled">
+          ${
+            era.sections.map((chapter, jndex) =>
+              
+              `
+          <li>
+            <h3>
               <a href="/era-${ index }/${
                 jndex + 1 }-${ chapter.id }">
-                ${ chapter.title }</a>
-            </li>`)
-            }
-          </ol>
-          `
-
-            : ''
+                Chapitre ${ jndex + 1 } : ${ chapter.title }</a>
+            </h3>
+          </li>`)
           }
-          `)
-            .join('\n')
+        </ul>
+        `
+
+          : ''
         }
+        `)
+            .join('\n')
+      }
     </div>
   </div>`
   })

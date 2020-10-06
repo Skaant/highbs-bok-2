@@ -1,5 +1,6 @@
 export default {
-  name: "Celui qui avait arrété de ressentir l'amour",
+  id: 'celui-sans-amour',
+  title: "Celui qui avait arrété de ressentir l'amour",
   content:
 `
 Ce monde de matière ne se déroule pas selon
