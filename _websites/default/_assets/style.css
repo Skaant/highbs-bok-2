@@ -113,3 +113,8 @@ span.title {
 #era_page h1 {
   font-size: 4rem;
 }
+
+.container > p > img {
+  margin: auto;
+  display: block;
+}

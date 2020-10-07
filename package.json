@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js --experimental-modules",
-    "test": "npm start -- test"
+    "test": "npm start -- test",
+    "readme": "npm start -- -k readme -log build",
+    "website": "npm start -- -k website -log -force build '' default"
   },
   "keywords": [
     "abs",

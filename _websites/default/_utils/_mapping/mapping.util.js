@@ -6,6 +6,7 @@ import sevenErasTemplate from '../../../_templates/seven-eras/seven-eras.templat
 import eraTemplate from '../../../_templates/era/era.template.js'
 import chapterTemplate from '../../../_templates/chapter/chapter.template.js'
 import pageTemplate from '../../../_templates/page/page.template.js'
+import IMAGE from '../../../../kami.js/_shrine/book/_shrine/image/image.kami.js'
 
 export default (
   scope,
@@ -72,6 +73,14 @@ export default (
           folderScope,
           options
         ),
+        ...(era.images
+          ? IMAGE.copy(
+            era.images,
+            folderScope,
+            options
+          )
+          
+          : []),
 
         // CHAPTERS : ERA-i/j-<id>
         ...(era.sections
@@ -98,6 +107,14 @@ export default (
                   folderScope,
                   options
                 ),
+                ...(chapter.images
+                  ? IMAGE.copy(
+                    chapter.images,
+                    folderScope,
+                    options
+                  )
+                  
+                  : []),
 
                 ...(chapter.pages
                   ? chapter.pages.map((page, index) =>
@@ -121,7 +138,15 @@ export default (
                           },
                           folderScope,
                           options
-                        )
+                        ),
+                        ...(page.images
+                          ? IMAGE.copy(
+                            page.images,
+                            folderScope,
+                            options
+                          )
+                          
+                          : []),
                       ])
                     ))
 

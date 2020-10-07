@@ -8,4 +8,6 @@ export default () =>
       BOOK,
       'highbs-bok'
     )
-      .then(book => resolve({ book })))
+      .then(book =>
+        
+        resolve({ book })))
