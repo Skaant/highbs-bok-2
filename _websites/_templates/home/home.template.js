@@ -104,16 +104,17 @@ export default data => layoutFragment(
             est régulièrement mis à jour, et j'essaie de notifier ses changements ici.</p>
           <ul>
             <li>
-              <b>Passage du code source du projet sur
-                le framework [\`kami.js\`](https://github.com/Skaant/kami.js)</b></li>
+              <b>Passage du code source du projet sur le framework
+                <a href="https://github.com/Skaant/kami.js">\`kami.js\`</a></b></li>
             <li>
               Amélioration des URLs des sections
                 (ERA, chapitres) et des pages pour être plus lisibles.</li>
             <li>
               Intégration du storyboard de Mai 2020
-                (scan en cours de transfert sur [imrok.fr](https://imrok.fr)).</li>
+                (scan en cours de transfert sur
+                <a href="https://imrok.fr">imrok.fr</a>).</li>
             <li>
-              Amélioration des balises <title> et
+              Amélioration des balises <i>title</i> et
                 méta description pour un contenu
                 plus cohérent, toujours basé sur
                 les données de la page ou section.</li>

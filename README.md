@@ -1,7 +1,7 @@
 **Built on [`kami.js`](https://github.com/Skaant/kami.js) !**
   
 *[24 KAMIS](#kamis-glossary)
-on 10/6/2020, 2:31:15 PM*
+on 10/7/2020, 5:19:38 AM*
 
 # highbs-bok-2
 
@@ -216,17 +216,26 @@ and [EXTRACTS](#extracts).
 
 ### Occurences
 
-**Count : 5.**
+**Count : 14.**
 
 Matching regular expression :
 
 `/\/_pages\/(.*)\/(.*)\.page\.js/`.
 
-* [`/_data/highbs-bok/_sections/era_0/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era_0/_pages/1/1.page.js)
-* [`/_data/highbs-bok/_sections/era_0/_pages/2/2.page.js`](/_data/highbs-bok/_sections/era_0/_pages/2/2.page.js)
-* [`/_data/highbs-bok/_sections/era_0/_pages/3/3.page.js`](/_data/highbs-bok/_sections/era_0/_pages/3/3.page.js)
-* [`/_data/highbs-bok/_sections/era_0/_pages/4/4.page.js`](/_data/highbs-bok/_sections/era_0/_pages/4/4.page.js)
-* [`/_data/highbs-bok/_sections/era_1/_sections/1-singe-triste/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era_1/_sections/1-singe-triste/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/2/2.page.js`](/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/2/2.page.js)
+* [`/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/3/3.page.js`](/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/3/3.page.js)
+* [`/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/4/4.page.js`](/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/_pages/4/4.page.js)
+* [`/_data/highbs-bok/_sections/era-1/_sections/1-singes-tristes-singes-libres/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-1/_sections/1-singes-tristes-singes-libres/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-2/_sections/1-grand-arbre/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-2/_sections/1-grand-arbre/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-3/_sections/1-spores-de-conscience/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-3/_sections/1-spores-de-conscience/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-4/_sections/1-piliers-de-la-religion/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-4/_sections/1-piliers-de-la-religion/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-4/_sections/2-fin-de-toute-chose/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-4/_sections/2-fin-de-toute-chose/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-5/_sections/1-champ-dix-mille-joyaux/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-5/_sections/1-champ-dix-mille-joyaux/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-5/_sections/1-champ-dix-mille-joyaux/_pages/2/2.page.js`](/_data/highbs-bok/_sections/era-5/_sections/1-champ-dix-mille-joyaux/_pages/2/2.page.js)
+* [`/_data/highbs-bok/_sections/era-5/_sections/2-l-angk/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-5/_sections/2-l-angk/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-6/_sections/1-etres-de-lumiere/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-6/_sections/1-etres-de-lumiere/_pages/1/1.page.js)
+* [`/_data/highbs-bok/_sections/era-7/_sections/1-geode-adamai/_pages/1/1.page.js`](/_data/highbs-bok/_sections/era-7/_sections/1-geode-adamai/_pages/1/1.page.js)
 
 
 ## `*-book-section`
@@ -257,15 +266,30 @@ It is known as :
 
 ### Occurences
 
-**Count : 3.**
+**Count : 18.**
 
 Matching regular expression :
 
 `/^\/_data\/(.*)\/_sections\/(.*)\/(.*)\.section\.js/`.
 
-* [`/_data/highbs-bok/_sections/era_0/era_0.section.js`](/_data/highbs-bok/_sections/era_0/era_0.section.js)
-* [`/_data/highbs-bok/_sections/era_1/era_1.section.js`](/_data/highbs-bok/_sections/era_1/era_1.section.js)
-* [`/_data/highbs-bok/_sections/era_1/_sections/1-singe-triste/1-singe-triste.section.js`](/_data/highbs-bok/_sections/era_1/_sections/1-singe-triste/1-singe-triste.section.js)
+* [`/_data/highbs-bok/_sections/era-0/era-0.section.js`](/_data/highbs-bok/_sections/era-0/era-0.section.js)
+* [`/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/le-narrateur.section.js`](/_data/highbs-bok/_sections/era-0/_sections/1-le-narrateur/le-narrateur.section.js)
+* [`/_data/highbs-bok/_sections/era-1/era-1.section.js`](/_data/highbs-bok/_sections/era-1/era-1.section.js)
+* [`/_data/highbs-bok/_sections/era-1/_sections/1-singes-tristes-singes-libres/singes-tristes-singes-libres.section.js`](/_data/highbs-bok/_sections/era-1/_sections/1-singes-tristes-singes-libres/singes-tristes-singes-libres.section.js)
+* [`/_data/highbs-bok/_sections/era-2/era-2.section.js`](/_data/highbs-bok/_sections/era-2/era-2.section.js)
+* [`/_data/highbs-bok/_sections/era-2/_sections/1-grand-arbre/grand-arbre.section.js`](/_data/highbs-bok/_sections/era-2/_sections/1-grand-arbre/grand-arbre.section.js)
+* [`/_data/highbs-bok/_sections/era-3/era-3.section.js`](/_data/highbs-bok/_sections/era-3/era-3.section.js)
+* [`/_data/highbs-bok/_sections/era-3/_sections/1-spores-de-conscience/spores-de-conscience.section.js`](/_data/highbs-bok/_sections/era-3/_sections/1-spores-de-conscience/spores-de-conscience.section.js)
+* [`/_data/highbs-bok/_sections/era-4/era-4.section.js`](/_data/highbs-bok/_sections/era-4/era-4.section.js)
+* [`/_data/highbs-bok/_sections/era-4/_sections/1-piliers-de-la-religion/piliers-de-la-religion.section.js`](/_data/highbs-bok/_sections/era-4/_sections/1-piliers-de-la-religion/piliers-de-la-religion.section.js)
+* [`/_data/highbs-bok/_sections/era-4/_sections/2-fin-de-toute-chose/fin-de-toute-chose.section.js`](/_data/highbs-bok/_sections/era-4/_sections/2-fin-de-toute-chose/fin-de-toute-chose.section.js)
+* [`/_data/highbs-bok/_sections/era-5/era-5.section.js`](/_data/highbs-bok/_sections/era-5/era-5.section.js)
+* [`/_data/highbs-bok/_sections/era-5/_sections/1-champ-dix-mille-joyaux/champ-dix-mille-joyaux.section.js`](/_data/highbs-bok/_sections/era-5/_sections/1-champ-dix-mille-joyaux/champ-dix-mille-joyaux.section.js)
+* [`/_data/highbs-bok/_sections/era-5/_sections/2-l-angk/l-angk.section.js`](/_data/highbs-bok/_sections/era-5/_sections/2-l-angk/l-angk.section.js)
+* [`/_data/highbs-bok/_sections/era-6/era-6.section.js`](/_data/highbs-bok/_sections/era-6/era-6.section.js)
+* [`/_data/highbs-bok/_sections/era-6/_sections/1-etres-de-lumiere/etres-de-lumiere.section.js`](/_data/highbs-bok/_sections/era-6/_sections/1-etres-de-lumiere/etres-de-lumiere.section.js)
+* [`/_data/highbs-bok/_sections/era-7/era-7.section.js`](/_data/highbs-bok/_sections/era-7/era-7.section.js)
+* [`/_data/highbs-bok/_sections/era-7/_sections/1-geode-adamai/geode-adamai.section.js`](/_data/highbs-bok/_sections/era-7/_sections/1-geode-adamai/geode-adamai.section.js)
 
 
 ## `*-command`
