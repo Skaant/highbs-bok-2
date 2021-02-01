@@ -15,11 +15,9 @@
       "args": [
         "--",
         "-log",
-        "-force",
-        "-k",
+        "-m",
         "website",
         "build",
-        "",
         "default"
       ]
     }

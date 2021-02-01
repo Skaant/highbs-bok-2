@@ -1,10 +1,10 @@
-import KAMI from '../../kami.js/_shrine/kami/kami.kami.js'
+import motifMotif from 'motifs-js/_motifs/motif/motif.motif.js'
 
 export default () =>
 
   new Promise(resolve =>
 
-    KAMI.get()
-      .then(kamis =>
+    motifMotif.get()
+      .then(motifs =>
 
-        resolve({ kamis })))
+        resolve({ motifs })))

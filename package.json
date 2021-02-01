@@ -2,13 +2,14 @@
   "name": "highbs-bok-2",
   "version": "1.0.0",
   "type": "module",
-  "description": "(Built on KAMI.JS) HIGHBS-BOK, the absolute book of PATTERNS, describes the ZUMS SAGA, a story about intelligent, self-conscious and cultivated monkeys getting to the edges of universe and coming back.",
+  "description": "(Built on motifs-js) HIGHBS-BOK, the absolute book of PATTERNS, describes the ZUMS SAGA, a story about intelligent, self-conscious and cultivated monkeys getting to the edges of universe and coming back.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --experimental-modules",
-    "test": "npm start -- test",
-    "readme": "npm start -- -k readme -log build",
-    "website": "npm start -- -k website -log -force build '' default"
+    "start": "node index.js --",
+    "test": "npm start -- -log test",
+    "readme": "npm start -- -m readme -log build",
+    "website": "npm start -- -m website -log build default",
+    "serve": "npm start -- -m website -log serve default"
   },
   "keywords": [
     "abs",
@@ -26,5 +27,8 @@
   "license": "ISC",
   "devDependencies": {
     "showdown": "^1.9.1"
+  },
+  "dependencies": {
+    "motifs-js": "^0.4.2"
   }
 }

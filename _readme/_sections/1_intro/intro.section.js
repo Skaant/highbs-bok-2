@@ -1,8 +1,8 @@
-export default kamis =>
+export default motifs =>
 
-  `**Built on [\`kami.js\`](https://github.com/Skaant/kami.js) !**
+  `**Built on [\`motif.js\`](https://github.com/Skaant/motif.js) !**
   
-*[${ kamis.length } KAMIS](#kamis-glossary)
+*[${ motifs.length } MOTIFS](#motifs-glossary)
 on ${ (new Date()).toLocaleString('en') }*
 
 # highbs-bok-2
@@ -13,4 +13,4 @@ on ${ (new Date()).toLocaleString('en') }*
 
 ### Table of content
 
-* [KAMIS glossary](#kamis-glossary)`
+* [MOTIFS glossary](#motifs-glossary)`

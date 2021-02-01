@@ -1,4 +1,4 @@
-import BOOK from "../../../../kami.js/_shrine/book/book.kami.js";
+import BOOK from "motifs-js/_motifs/book/book.motif.js";
 
 export default () =>
 

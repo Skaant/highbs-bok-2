@@ -1,11 +1,12 @@
-import langEnum from "../../kami.js/_shrine/lang/_enums/lang.enum.js"
+import { FR } from "motifs-js/_motifs/lang/_enums/lang.enum.js"
 import provisionUtil from "./_utils/_provision/provision.util.js"
 import mappingUtil from "./_utils/_mapping/mapping.util.js"
 
 export default {
   id: 'default',
   title: 'HIGHBS-BOK, l\'absolu livre des motifs',
-  lang: langEnum.FR,
+  url: 'https://highbs-bok.fr',
+  lang: FR,
   provision: provisionUtil,
   mapping: mappingUtil
 }

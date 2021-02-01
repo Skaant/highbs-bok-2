@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Roboto-Slab";
-  src: url("/assets/fonts/RobotoSlab-Regular.ttf");
+  font-family: 'Merryweather';
+  src: url('/assets/fonts/Merriweather-Regular.ttf')
 }
 
 html {
@@ -12,59 +12,63 @@ body {
 }
 
 h1, h2:not(.lead), h3, .navbar-brand, .text-laser, .text-gold, .text-epic, .activated {
-  font-family: "Roboto-Slab";
+  font-family: "Merryweather";
   word-break: break-word;
 }
 
-body > div {
-  padding-bottom: 160px;
+nav.navbar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.navbar-brand > img {
+  height: 4rem;
+}
+
+body > div:first-child {
+  padding: 160px auto;
+}
+
+.content-container > .row {
+  min-height: 100vh;
+  padding: 8rem 4rem 4rem;
+}
+
+.content-container > .row:first-child {
+  height: calc(100vh - 8rem);
 }
 
 img#top-image {
   min-width: 800px;
-  opacity: .55
 }
 
 h1 {
-  font-size: 8rem;
-  letter-spacing: .65rem;
-}
-
-#era h1,
-#section h1,
-#page h1 {
   font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.2rem;
 }
 
-@media (max-width: 991.98px) {
-
-  h1 {
-    font-size: 6rem;
-  }
-
-  #era h1,
-  #section h1,
-  #page h1 {
-    font-size: 2.5rem;
-  }
+#home h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+  letter-spacing: 0.3rem;
 }
 
 h2 {
-  font-size: 3rem;
-  margin-top: 12rem;
-  letter-spacing: .35rem;
-}
-
-#era h2,
-#section h2,
-#page h2 {
-  margin-top: 6rem;
   font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.125rem;
 }
 
-h1 + p,
-h2 + p {
-  font-size: 1.8rem;
+#home h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+h1 + p {
+  font-size: 2.8rem;
   color: rgba(0, 0, 0, .55)
 }
 
@@ -77,14 +81,22 @@ p, li {
   color: rgb(241, 182, 99);
 }
 
+.bg-gold {
+  background-color: #ffcd5c;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.bg-gold-light {
+  background-color: #ffde95;
+}
+
 #home a {
   text-decoration: underline;
 }
 
 a,
-a:hover,
-.text-laser {
-  color: rgb(94, 107, 231);
+a:hover {
+  color: #5d89ff;
 }
 
 span.title {

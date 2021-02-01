@@ -1,7 +1,7 @@
 **Built on [`kami.js`](https://github.com/Skaant/kami.js) !**
   
 *[24 KAMIS](#kamis-glossary)
-on 10/7/2020, 5:19:38 AM*
+on 10/7/2020, 4:47:53 PM*
 
 # highbs-bok-2
 
@@ -151,20 +151,28 @@ It is known as :
 
 ### Description
 
-**VISUAL CONTENT**
+**BOOK VISUAL CONTENT**
+
+Usually bound to a [WEBSITE-PAGE](#website-page) page,
+BOOK-IMAGES are given in a [BOOK-SECTION](#book-section),
+a [BOOK-EXTRACT](#book-extract) or in a [BOOK-PAGE](#book-page).
+
+When the BOOK-PAGE, BOOK-EXTRACT or BOOK-SECTION is retrieved,
+scoped BOOK-IMAGES are copied to the destination WEBSITE-PAGE folder.
 
 ### Properties
 
-**Count: 4.**
+**Count: 5.**
 
 * `id`
 * `names`
 * `description`
 * `regExp`
+* `copy`
 
 ### Occurences
 
-**Count : 15.**
+**Count : 21.**
 
 Matching regular expression :
 
@@ -181,6 +189,12 @@ Matching regular expression :
 * [`/_build/assets/images/highbs-to-hol-adin.svg`](/_build/assets/images/highbs-to-hol-adin.svg)
 * [`/_build/assets/images/highbs.svg`](/_build/assets/images/highbs.svg)
 * [`/_build/assets/images/hol-adin.svg`](/_build/assets/images/hol-adin.svg)
+* [`/_build/era-3/1-spores-de-conscience/1-nouvelles-branches-sur-grand-arbre/kolos-seed-vessels.jpg`](/_build/era-3/1-spores-de-conscience/1-nouvelles-branches-sur-grand-arbre/kolos-seed-vessels.jpg)
+* [`/_build/era-5/1-champ-dix-mille-joyaux/contraction-era-schema.jpg`](/_build/era-5/1-champ-dix-mille-joyaux/contraction-era-schema.jpg)
+* [`/_build/era-5/2-l-angk/contraction-era-schema.jpg`](/_build/era-5/2-l-angk/contraction-era-schema.jpg)
+* [`/_build/era-5/contraction-era-schema.jpg`](/_build/era-5/contraction-era-schema.jpg)
+* [`/_data/highbs-bok/_sections/era-3/_sections/1-spores-de-conscience/_pages/1/_images/kolos-seed-vessels.jpg`](/_data/highbs-bok/_sections/era-3/_sections/1-spores-de-conscience/_pages/1/_images/kolos-seed-vessels.jpg)
+* [`/_data/highbs-bok/_sections/era-5/_images/contraction-era-schema.jpg`](/_data/highbs-bok/_sections/era-5/_images/contraction-era-schema.jpg)
 * [`/_websites/default/_assets/images/7-eras.svg`](/_websites/default/_assets/images/7-eras.svg)
 * [`/_websites/default/_assets/images/highbs-to-hol-adin.svg`](/_websites/default/_assets/images/highbs-to-hol-adin.svg)
 * [`/_websites/default/_assets/images/highbs.svg`](/_websites/default/_assets/images/highbs.svg)
@@ -207,12 +221,14 @@ and [EXTRACTS](#extracts).
 
 ### Properties
 
-**Count: 4.**
+**Count: 6.**
 
 * `id`
 * `names`
 * `description`
 * `regExp`
+* `get`
+* `provision`
 
 ### Occurences
 
@@ -418,13 +434,15 @@ Folder is represented by :
 
 ### Properties
 
-**Count: 5.**
+**Count: 7.**
 
 * `id`
 * `names`
 * `description`
 * `create`
 * `copy`
+* `clear`
+* `_specs`
 
 
 ## `*-get`
@@ -469,12 +487,13 @@ a regular expression is used for matching.
 
 ### Occurences
 
-**Count : 6.**
+**Count : 7.**
 
 Matching regular expression :
 
 `/(.*)\/_shrine\/(.*)\/_ways\/get\/get.way.js/`.
 
+* [`/kami.js/_shrine/book/_shrine/page/_ways/get/get.way.js`](/kami.js/_shrine/book/_shrine/page/_ways/get/get.way.js)
 * [`/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js`](/kami.js/_shrine/book/_shrine/section/_ways/get/get.way.js)
 * [`/kami.js/_shrine/book/_ways/get/get.way.js`](/kami.js/_shrine/book/_ways/get/get.way.js)
 * [`/kami.js/_shrine/file/_ways/get/get.way.js`](/kami.js/_shrine/file/_ways/get/get.way.js)
@@ -541,7 +560,7 @@ in a similar way classes and objects are.
 
 ### Properties
 
-**Count: 12.**
+**Count: 13.**
 
 * `id`
 * `names`
@@ -554,6 +573,7 @@ in a similar way classes and objects are.
 * `cli`
 * `test`
 * `specs`
+* `_specs`
 * `ave`
 
 ### Occurences
@@ -850,13 +870,14 @@ categories of specifications :
 
 ### Occurences
 
-**Count : 2.**
+**Count : 3.**
 
 Matching regular expression :
 
 `/(.*)\/(.*)\/_props\/(_specs|specs)\/(.*)\/(.*).spec.js/`.
 
 * [`/kami.js/_shrine/kami/_props/specs/props/props.spec.js`](/kami.js/_shrine/kami/_props/specs/props/props.spec.js)
+* [`/kami.js/_shrine/kami/_props/_specs/regExp/regExp.spec.js`](/kami.js/_shrine/kami/_props/_specs/regExp/regExp.spec.js)
 * [`/kami.js/_shrine/website/_props/_specs/regExp/regExp.spec.js`](/kami.js/_shrine/website/_props/_specs/regExp/regExp.spec.js)
 
 
