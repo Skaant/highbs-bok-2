@@ -11,7 +11,7 @@ export default (
     <meta name="description" content="${ description }">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>${ title }</title>
-    <link rel="icon" type="image/svg+xml" href="/assets/images/highbs-bok.svg">
+    <link rel="icon" type="image/svg+xml" href="/assets/images/hb-icon.svg">
     <link href="/assets/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="/assets/style.css" rel="stylesheet" type="text/css">
   </head>
@@ -28,16 +28,13 @@ export default (
         <div class="collapse navbar-collapse" id="collapsible-menu">
           <ul class="navbar-nav flex-row justify-content-end ml-auto mt-2 mt-md-0">
             <li class="nav-item mt-0 mr-2">
-              <a href="/7-eras"
-                  class="text-muted">
-                7
-                <span class="text-epic">ERAS</span>
+              <a href="/univers">
+                L'univers
               </a>
             </li>
             ·
             <li class="nav-item mt-0 ml-2 mr-3">
-              <a href="/about"
-                  class="text-muted">
+              <a href="/about">
                 À propos</a>
             </li>
           </ul>

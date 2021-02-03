@@ -22,6 +22,10 @@ nav.navbar {
   top: 0;
 }
 
+a.navbar-brand {
+  background-color: initial;
+}
+
 .navbar-brand > img {
   height: 4rem;
 }
@@ -31,45 +35,32 @@ body > div:first-child {
 }
 
 .content-container > .row {
-  min-height: 100vh;
-  padding: 8rem 4rem 4rem;
+  padding: 8rem 4rem 6rem;
+  justify-content: center;
 }
 
-.content-container > .row:first-child {
+@media (max-width: 575.98px) {
+  .content-container > .row {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.content-container > .row:nth-child(2) {
   height: calc(100vh - 8rem);
 }
 
-img#top-image {
-  min-width: 800px;
+.content-container > .row > img {
+  object-fit: cover;
 }
 
-h1 {
-  font-size: 4rem;
-  line-height: 4rem;
-  letter-spacing: 0.2rem;
+.row.parallax-wrapper {
+  width: 100vw;
 }
 
-#home h1 {
-  font-size: 6rem;
-  line-height: 6rem;
-  letter-spacing: 0.3rem;
-}
-
-h2 {
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.125rem;
-}
-
-#home h2 {
-  font-size: 4rem;
-  line-height: 4rem;
-  letter-spacing: 0.2rem;
-}
-
-h1 + p {
-  font-size: 2.8rem;
-  color: rgba(0, 0, 0, .55)
+.parallax {
+  left: 0;
+  z-index: -1;
 }
 
 p, li {
@@ -90,10 +81,6 @@ p, li {
   background-color: #ffde95;
 }
 
-#home a {
-  text-decoration: underline;
-}
-
 a,
 a:hover {
   color: #5d89ff;
@@ -105,12 +92,6 @@ span.title {
 
 .activated {
   color: rgb(94, 107, 231) !important;
-}
-
-#eras a:not(:hover),
-#era_page #pages_list a:not(.active):not(:hover),
-#era_page #eras_list a:not(.active):not(:hover) {
-  color: initial;
 }
 
 .lexic {

@@ -4,7 +4,7 @@ import mappingUtil from "./_utils/_mapping/mapping.util.js"
 
 export default {
   id: 'default',
-  title: 'HIGHBS-BOK, l\'absolu livre des motifs',
+  title: 'HIGHBS-BOK, le livre du motif absolu',
   url: 'https://highbs-bok.fr',
   lang: FR,
   provision: provisionUtil,

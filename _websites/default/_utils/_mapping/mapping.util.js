@@ -1,9 +1,10 @@
 import websitePageMotif from 'motifs-js/_motifs/website-page/website-page.motif.js'
-import websiteFolderMotif from 'motifs-js/_motifs/website-folder/website-folder.motif.js'
 import homeTemplate from '../../../_templates/home/home.template.js'
 import aboutTemplate from '../../../_templates/about/about.template.js'
 import sevenErasTemplate from '../../../_templates/seven-eras/seven-eras.template.js'
-import eraTemplate from '../../../_templates/era/era.template.js'
+import glossaryTemplate from '../../../_templates/glossary/glossary.template.js'
+import colorsTemplate from '../../../_templates/colors/colors.template.js'
+import universeTemplate from '../../../_templates/universe/universe.template.js'
 
 export default (
   data,
@@ -16,24 +17,21 @@ export default (
   'about': websitePageMotif.shape(
     aboutTemplate,
     data
+  ), 
+  'univers': websitePageMotif.shape(
+    universeTemplate,
+    data
   ),
-  '7-eras': websiteFolderMotif.shape({
-    '': websitePageMotif.shape(
-      sevenErasTemplate,
-      data
-    ),
-    ...data.book.sections.reduce(
-      (acc, era) => ({
-        ...acc,
-        [era.id]: websitePageMotif.shape(
-          eraTemplate,
-          {
-            data,
-            era
-          }
-        )
-      }),
-      {}
-    )
-  })
+  '7-eras': websitePageMotif.shape(
+    sevenErasTemplate,
+    data
+  ),
+  'glossaire': websitePageMotif.shape(
+    glossaryTemplate,
+    data
+  ),
+  'couleurs': websitePageMotif.shape(
+    colorsTemplate,
+    data
+  )
 })
